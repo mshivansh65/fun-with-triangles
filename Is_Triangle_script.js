@@ -19,8 +19,10 @@ btnCheck.addEventListener("click", function () {
       // console.log(`not a triangle`);
       dispalyAns(`It is not a triangle`);
     }
-  } else {
+  } else if (input1 < 0 || input2 < 0 || input3 < 0) {
     alert("-ve angles are not accepted");
+  } else {
+    alert("input soemthing");
   }
 });
 function dispalyAns(message) {
