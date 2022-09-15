@@ -44,7 +44,7 @@ btnCheck.addEventListener("click", function () {
     }
   });
   // console.log(`final ans ${score}`);
-  dispalyAns(`Final ans ${score}`);
+  dispalyAns(`Final Score ${score}`);
 });
 function dispalyAns(message) {
   if (document.querySelector(".text-area")) {

@@ -11,7 +11,7 @@ btnCheck.addEventListener("click", function () {
   } else if (input2 > 0 && input3 > 0) {
     const ans = input2 * input3 * 0.5;
 
-    dispalyAns(`Area is :{ans}`);
+    dispalyAns(`Area is :${ans}`);
     // console.log((input2 ** 2 + input3 ** 2) ** 0.5);
   } else {
     alert("-ve legnts are not accepted");
