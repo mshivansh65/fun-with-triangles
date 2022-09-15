@@ -13,10 +13,10 @@ body {
 .nav {
   margin-top: 0;
   background-color: var(--primary-color);
-  height: 8vh;
+  height: 12vh;
 }
 .nav-list {
-  padding: 1rem;
+  padding: 1.5rem;
   list-style: none;
   margin-block-start: 0;
 
@@ -27,11 +27,15 @@ body {
 .nav-list-item {
   display: inline;
   margin: 1rem;
+  padding: 0.4rem;
 }
 .nav-link {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+}
+.active {
+  border-bottom: 3px solid #fff;
 }
 .container {
   max-width: 40rem;
@@ -58,4 +62,23 @@ label {
   /* background-color: red; */
   margin-bottom: 0.2rem;
   display: block;
+}
+.box {
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  margin-bottom: 0.8rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.option-list {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-inline-start: 0;
+}
+.option-list-item {
+  display: inline;
+  margin-right: 0.8rem;
+}
+.option {
+  margin: 0;
 }

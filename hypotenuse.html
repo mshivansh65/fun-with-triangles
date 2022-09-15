@@ -10,13 +10,13 @@
   <body>
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-list-item active">
+        <li class="nav-list-item">
           <a class="nav-link" href="/index.html">Is Triangle ?</a>
         </li>
         <li class="nav-list-item">
           <a class="nav-link" href="/quiz.html">Quiz</a>
         </li>
-        <li class="nav-list-item">
+        <li class="nav-list-item active">
           <a class="nav-link" href="/hypotenuse.html">Hypotenuse</a>
         </li>
         <li class="nav-list-item">
@@ -25,17 +25,20 @@
       </ul>
     </nav>
     <div class="container">
-      <h1 class="heading">Is Triangle?</h1>
+      <h1 class="heading">Check Hypotenuse</h1>
 
       <!--  -->
-      <label for="input-1">angle1 (in degree)</label>
-      <input class="input" id="input-1" type="text" />
-      <label for="input-2">angle2 (in degree)</label>
+      <!-- <label for="input-1">angle1 (in degree)</label>
+      <input class="input" id="input-1" type="text" /> -->
+      <div class="box">
+        <h3>Length of Hypotenuse = sqrt(a<sup>2</sup> + b<sup>2</sup>)</h3>
+      </div>
+      <label for="input-2">a =</label>
       <input class="input" id="input-2" type="text" />
-      <label for="input-3">angle3 (in degree)</label>
+      <label for="input-3">b =</label>
       <input class="input" id="input-3" type="text" />
-      <button class="btn btn-check">IsTriangle?</button>
+      <button class="btn btn-check">Check Hypotenuse</button>
     </div>
   </body>
-  <script src="/Is_Triangle_script.js"></script>
+  <script src="/Hypotenuse_script.js"></script>
 </html>

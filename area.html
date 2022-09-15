@@ -10,7 +10,7 @@
   <body>
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-list-item active">
+        <li class="nav-list-item">
           <a class="nav-link" href="/index.html">Is Triangle ?</a>
         </li>
         <li class="nav-list-item">
@@ -19,23 +19,26 @@
         <li class="nav-list-item">
           <a class="nav-link" href="/hypotenuse.html">Hypotenuse</a>
         </li>
-        <li class="nav-list-item">
+        <li class="nav-list-item active">
           <a class="nav-link" href="/area.html">Area</a>
         </li>
       </ul>
     </nav>
     <div class="container">
-      <h1 class="heading">Is Triangle?</h1>
+      <h1 class="heading">Check Area Of A Triangle</h1>
 
       <!--  -->
-      <label for="input-1">angle1 (in degree)</label>
-      <input class="input" id="input-1" type="text" />
-      <label for="input-2">angle2 (in degree)</label>
+      <!-- <label for="input-1">angle1 (in degree)</label>
+      <input class="input" id="input-1" type="text" /> -->
+      <div class="box">
+        <h3>Area of a Triangle = 1/2(Base*Height)</h3>
+      </div>
+      <label for="input-2">Base (in cm)</label>
       <input class="input" id="input-2" type="text" />
-      <label for="input-3">angle3 (in degree)</label>
+      <label for="input-3">Height (in cm)</label>
       <input class="input" id="input-3" type="text" />
-      <button class="btn btn-check">IsTriangle?</button>
+      <button class="btn btn-check">Check Area</button>
     </div>
   </body>
-  <script src="/Is_Triangle_script.js"></script>
+  <script src="/Area_script.js"></script>
 </html>
