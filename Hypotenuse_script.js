@@ -11,7 +11,7 @@ btnCheck.addEventListener("click", function () {
   if (Number.isNaN(input2) || Number.isNaN(input3)) {
     alert("enter a valid number");
   } else if (input2 > 0 && input3 > 0) {
-    const ans = (input2 ** 2 + input3 ** 2) ** 0.5;
+    const ans = ((input2 ** 2 + input3 ** 2) ** 0.5).toFixed(2);
 
     dispalyAns(`Hypotenuse is ${ans}`);
   } else {

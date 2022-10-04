@@ -4,7 +4,7 @@ const btnCheck = document.querySelector(".btn-check");
 const optionsEl = document.querySelectorAll(".option");
 // btnCheck.addEventListener("click", function () {});
 const inputAns = [-1, -1];
-const rightAns = [2, 3];
+const rightAns = [1, 1, 1, 1, 3];
 let score = 0;
 document.addEventListener("click", function (e) {
   if (e.target.closest(".option-list-item")) {
